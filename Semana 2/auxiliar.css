@@ -1,4 +1,4 @@
-/* Estilos para largura maior que 500px */
+
 @media only screen and (min-width: 501px) {
     body {
         margin: 0;
@@ -15,7 +15,7 @@
         font-family: 'Mukta Mahee';
     }
     
-    /* Aumentando as letras e adicionando estilos estilizados */
+    
     #menu, #noticias, #destaques, #servicos, #resultados {
         background-color: #a1a1a1;
         border: 0.5px solid var(--corBordasPrimaria);
@@ -32,11 +32,11 @@
     }
     #menu:hover, #noticias:hover, #destaques:hover, #servicos:hover, #resultados:hover {
         transform: scale(1.02) translateZ(30px);
-    transition: transform 0.3s ease, font-size 0.3s ease; /* Adicionando transição de tamanho de fonte */
+    transition: transform 0.3s ease, font-size 0.3s ease; 
     font-size: 1.1em; 
     }
 
-    /* Estilos para os blocos */
+    
     #menu, #noticias, #destaques {
         height: 200px;
         margin-right: 5px;
@@ -65,7 +65,6 @@
         max-height: 300px; 
     }
 
-    /* Estilos individuais para cada bloco */
     #servicos {
         width: calc(40% - 10px);
         background-color: rgba(255, 255, 255, 0.5);
@@ -97,20 +96,16 @@
     /* Estilos para título */
     h1 {
         text-align: center;
-        color: #ffffff; /* Alterando a cor para um tom mais chamativo */
-        padding: 30px 0; /* Aumentando o espaçamento interno para destacar */
-        margin-bottom: 20px; /* Aumentando o espaçamento inferior */
-        font-size: 36px; /* Aumentando o tamanho da fonte para maior destaque */
-        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Reforçando o efeito de sombra */
-        font-weight: bold; /* Deixando o texto mais forte */
+        color: #ffffff; 
+        padding: 30px 0; 
+        margin-bottom: 20px; 
+        font-size: 36px; 
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); 
+        font-weight: bold; 
         letter-spacing: 1px;
     }
 
-    /* Estilos para o corpo */
-    body {
-        
-        /* Outros estilos para o body, se necessário */
-    }
+   
     .footer {
         display: flex;
         align-items: center;
@@ -122,11 +117,11 @@
         height: 5vh;
         color: var(--corBackgroundPrimaria);
         font-weight: bold;
-        font-size: 12px; /* Aumentei o tamanho da fonte para melhor legibilidade */
+        font-size: 12px; 
         border-radius: 5px;
         font-family: 'Mukta Mahee';
-        padding: 10px; /* Adicionei um espaço interno */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil */
+        padding: 10px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     }
     
 }
@@ -171,7 +166,7 @@
     }
 
 
-    /* Estilos para título */
+    
     h1 {
         text-align: center;
         color: white;
@@ -181,7 +176,6 @@
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
-    /* Estilos para o corpo */
     body {
         margin: 0;
         padding: 0;
